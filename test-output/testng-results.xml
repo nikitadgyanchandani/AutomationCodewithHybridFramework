@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Guru99" duration-ms="110079" started-at="2021-04-02T16:44:23Z" finished-at="2021-04-02T16:46:13Z">
+    <groups>
+    </groups>
+    <test name="Guru99 Test" duration-ms="110079" started-at="2021-04-02T16:44:23Z" finished-at="2021-04-02T16:46:13Z">
+      <class name="Com.Guru99.TestCases.TC_002_AddNewCustomer">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:Com.Guru99.TestCases.TC_002_AddNewCustomer@cb0ed20]" name="Setup" is-config="true" duration-ms="3591" started-at="2021-04-02T16:45:07Z" finished-at="2021-04-02T16:45:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="loginToGuru99()[pri:1, instance:Com.Guru99.TestCases.TC_002_AddNewCustomer@cb0ed20]" name="loginToGuru99" duration-ms="30844" started-at="2021-04-02T16:45:11Z" finished-at="2021-04-02T16:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGuru99 -->
+        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Com.Guru99.TestCases.TC_002_AddNewCustomer@cb0ed20]" name="AddCustomer" duration-ms="7554" started-at="2021-04-02T16:45:44Z" data-provider="AddNewCustomerData" finished-at="2021-04-02T16:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nikita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12031990]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ram nagar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pusad]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[445204]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5466746565]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[abc1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Com.Guru99.TestCases.TC_002_AddNewCustomer@cb0ed20]" name="AddCustomer" duration-ms="4772" started-at="2021-04-02T16:45:51Z" data-provider="AddNewCustomerData" finished-at="2021-04-02T16:45:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muskan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12031992]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Magarpatta]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[411001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7895453435]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[mus@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[mus1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Com.Guru99.TestCases.TC_002_AddNewCustomer@cb0ed20]" name="AddCustomer" duration-ms="16044" started-at="2021-04-02T16:45:56Z" data-provider="AddNewCustomerData" finished-at="2021-04-02T16:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shiatnshu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12031991]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ram nagar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ahmednagar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[411001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[6687577676]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[pqr@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[pqr1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Com.Guru99.TestCases.TC_002_AddNewCustomer@cb0ed20]" name="TearDown" is-config="true" duration-ms="999" started-at="2021-04-02T16:46:12Z" finished-at="2021-04-02T16:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Com.Guru99.TestCases.TC_002_AddNewCustomer -->
+      <class name="Com.Guru99.TestCases.Login_TC_001">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:Com.Guru99.TestCases.Login_TC_001@5891e32e]" name="Setup" is-config="true" duration-ms="5736" started-at="2021-04-02T16:44:23Z" finished-at="2021-04-02T16:44:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Com.Guru99.TestCases.Login_TC_001@5891e32e]" name="LoginTest" duration-ms="37227" started-at="2021-04-02T16:44:29Z" finished-at="2021-04-02T16:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Com.Guru99.TestCases.Login_TC_001@5891e32e]" name="TearDown" is-config="true" duration-ms="1036" started-at="2021-04-02T16:45:06Z" finished-at="2021-04-02T16:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Com.Guru99.TestCases.Login_TC_001 -->
+    </test> <!-- Guru99 Test -->
+  </suite> <!-- Guru99 -->
+</testng-results>

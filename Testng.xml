@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Guru99">
+ 
+	<listeners>
+		<listener class-name="Com.Guru99.Utilities.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Guru99 Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="Com.Guru99.TestCases.Login_TC_001"/>
+			<class name="Com.Guru99.TestCases.TC_002_AddNewCustomer"/>
+		</classes>
+
+	</test>
+
+</suite>
