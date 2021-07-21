@@ -1,0 +1,10 @@
+Com\Guru99\TestCases\captureScreenshot.class
+Com\Guru99\Utilities\ExtentReporterNG.class
+Com\Guru99\TestCases\TC_002_AddNewCustomer.class
+Com\Guru99\Utilities\ReadConfig.class
+Com\Guru99\PageObjects\AddNewCustomer.class
+Com\Guru99\TestCases\Login_TC_001.class
+Com\Guru99\TestCases\BaseClass.class
+Com\Guru99\PageObjects\EditCustomerDetails.class
+Com\Guru99\Utilities\XLUtils.class
+Com\Guru99\PageObjects\LoginPage.class

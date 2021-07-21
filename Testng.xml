@@ -11,7 +11,7 @@
 	<test name="Guru99 Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<!--<class name="Com.Guru99.TestCases.Login_TC_001"/>-->
+			<class name="Com.Guru99.TestCases.Login_TC_001"/>
 			<class name="Com.Guru99.TestCases.TC_002_AddNewCustomer"/>
 		</classes>
 
