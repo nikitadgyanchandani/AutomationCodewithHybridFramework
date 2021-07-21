@@ -60,6 +60,14 @@ public class AddNewCustomer {
 	@FindBy(xpath="//input[@value=\"Reset\"]")
 	WebElement CustomerDetailsResetButton;
 	
+	@FindBy(xpath="//p[contains(text(),'Customer Registered Successfully')]")
+	static
+	WebElement CustomerSuccessMessage;
+	
+	@FindBy(xpath="//table[@id='customer']//tr[3]/following::td[2]")
+	static
+	WebElement CustomerID;
+	
 	public void ClickNewCustomerMenuButton()
 	{
 		NewCustomerMenu.click();
@@ -129,6 +137,16 @@ public class AddNewCustomer {
 	public void ResetCustomerDetails()
 	{
 		CustomerDetailsResetButton.click();
+	}
+	public static String readSuccessMesage()
+	{
+		String custSuccessMsg=CustomerSuccessMessage.getText();
+		return custSuccessMsg;
+	}
+	public static String readCustomerID()
+	{
+		String custID=CustomerID.getText();
+		return custID;
 	}
 	
 }

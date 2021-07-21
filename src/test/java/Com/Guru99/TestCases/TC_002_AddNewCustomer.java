@@ -2,6 +2,7 @@ package Com.Guru99.TestCases;
 
 import java.io.IOException;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.DataProvider;
@@ -13,7 +14,7 @@ import Com.Guru99.Utilities.XLUtils;
 public class TC_002_AddNewCustomer extends BaseClass {
 	
 	@Test(priority=1)
-	public void loginToGuru99() throws InterruptedException
+	public void loginToGuru99() throws Exception
 	{
 		Login_TC_001 login=new Login_TC_001();
 		login.LoginTest();
@@ -36,6 +37,12 @@ public class TC_002_AddNewCustomer extends BaseClass {
 		newcust.setCustomerPassword(Password);
 		
 		newcust.submitCustomerDetails();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		String message=newcust.readSuccessMesage();
+		message.equals("Customer Submitted Succesfully");
+		String customerId=newcust.readCustomerID();
+		System.out.println("Customer ID is: "+customerId);
 	}
 	
 	@DataProvider(name="AddNewCustomerData")

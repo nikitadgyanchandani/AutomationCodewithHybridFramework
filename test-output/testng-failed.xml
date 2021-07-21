@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99]">
+  <listeners>
+    <listener class-name="Com.Guru99.Utilities.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Guru99 Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="Com.Guru99.TestCases.TC_002_AddNewCustomer">
         <methods>
           <include name="Setup"/>
           <include name="TearDown"/>
-          <include name="AddCustomer"/>
-          <include name="loginToGuru99"/>
+          <include name="AddCustomer" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- Com.Guru99.TestCases.TC_002_AddNewCustomer -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Guru99 Test(failed) -->
+</suite> <!-- Failed suite [Guru99] -->
