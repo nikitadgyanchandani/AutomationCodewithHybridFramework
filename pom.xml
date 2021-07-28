@@ -58,11 +58,11 @@
 </dependency>
 
  <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-<!-- <dependency>
+ <!-- <dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>3.1.2</version>
-	</dependency>  -->
+	</dependency>   -->
 	
 	<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 		<dependency>
@@ -81,7 +81,31 @@
 			<artifactId>commons-io</artifactId>
 			<version>1.3.2</version>
 		</dependency>	
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 
-
+ 
   </dependencies>
+  
+ <build>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+    		<artifactId>maven-compiler-plugin</artifactId>
+   			<version>3.8.1</version>
+    	</plugin>
+    
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.0.0-M5</version>
+    <configuration>
+    	<suiteXmlFiles>
+    		<suiteXmlFile>Testng.xml</suiteXmlFile>
+    	</suiteXmlFiles>
+    </configuration>
+</plugin>
+</plugins>
+    
+</build>
 </project>

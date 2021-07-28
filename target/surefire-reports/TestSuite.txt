@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 77.622 s <<< FAILURE! - in TestSuite
+Com.Guru99.TestCases.Login_TC_001.LoginTest  Time elapsed: 17.076 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Manager']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RACLAP80-COMP', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: be1fc5bb16ac5c9d61d1892c907a3789
+*** Element info: {Using=xpath, value=//a[text()='Manager']}
+	at Com.Guru99.TestCases.Login_TC_001.LoginTest(Login_TC_001.java:60)
+
+Com.Guru99.TestCases.TC_002_AddNewCustomer.loginToGuru99  Time elapsed: 18.53 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Manager']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RACLAP80-COMP', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 71be8508846ca59a24eb8f6f8114fefb
+*** Element info: {Using=xpath, value=//a[text()='Manager']}
+	at Com.Guru99.TestCases.TC_002_AddNewCustomer.loginToGuru99(TC_002_AddNewCustomer.java:20)
+
+Com.Guru99.TestCases.TC_002_AddNewCustomer.AddCustomer[Nikita, Female, 12031990, Ram nagar, Pusad, Maharashtra, 445204, 5466746565, abc@gmail.com, abc1234](1)  Time elapsed: 7.124 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="New Customer"]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RACLAP80-COMP', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 71be8508846ca59a24eb8f6f8114fefb
+*** Element info: {Using=xpath, value=//a[text()="New Customer"]}
+	at Com.Guru99.TestCases.TC_002_AddNewCustomer.AddCustomer(TC_002_AddNewCustomer.java:27)
+
+Com.Guru99.TestCases.TC_002_AddNewCustomer.AddCustomer[Muskan, Female, 12031992, Magarpatta, Pune, Maharashtra, 411001, 7895453435, mus@gmail.com, mus1234](2)  Time elapsed: 7.071 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="New Customer"]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RACLAP80-COMP', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 71be8508846ca59a24eb8f6f8114fefb
+*** Element info: {Using=xpath, value=//a[text()="New Customer"]}
+	at Com.Guru99.TestCases.TC_002_AddNewCustomer.AddCustomer(TC_002_AddNewCustomer.java:27)
+
+Com.Guru99.TestCases.TC_002_AddNewCustomer.AddCustomer[Shiatnshu, Male, 12031991, Ram nagar, Ahmednagar, Maharashtra, 411001, 6687577676, pqr@gmail.com, pqr1234](3)  Time elapsed: 7.061 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="New Customer"]"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RACLAP80-COMP', ip: '192.168.0.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 71be8508846ca59a24eb8f6f8114fefb
+*** Element info: {Using=xpath, value=//a[text()="New Customer"]}
+	at Com.Guru99.TestCases.TC_002_AddNewCustomer.AddCustomer(TC_002_AddNewCustomer.java:27)
+
