@@ -9,21 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Guru99</th></tr>
-<tr><td><a href="#t0">Guru99 Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">76,133</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Guru99 Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">62,908</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Guru99</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Guru99 Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Com.Guru99.TestCases.Login_TC_001</td><td><a href="#m0">LoginTest</a></td><td rowspan="1">1627494225758</td><td rowspan="1">17077</td></tr><tr class="failedodd"><td rowspan="4">Com.Guru99.TestCases.TC_002_AddNewCustomer</td><td><a href="#m1">AddCustomer</a></td><td rowspan="3">1627494277794</td><td rowspan="3">7067</td></tr><tr class="failedodd"><td><a href="#m2">AddCustomer</a></td></tr><tr class="failedodd"><td><a href="#m3">AddCustomer</a></td></tr><tr class="failedodd"><td><a href="#m4">loginToGuru99</a></td><td rowspan="1">1627494249448</td><td rowspan="1">18545</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Guru99</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Guru99 Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Com.Guru99.TestCases.Login_TC_001</td><td><a href="#m0">LoginTest</a></td><td rowspan="1">1627494657178</td><td rowspan="1">11898</td></tr><tr class="failedodd"><td rowspan="4">Com.Guru99.TestCases.TC_002_AddNewCustomer</td><td><a href="#m1">AddCustomer</a></td><td rowspan="3">1627494699195</td><td rowspan="3">7034</td></tr><tr class="failedodd"><td><a href="#m2">AddCustomer</a></td></tr><tr class="failedodd"><td><a href="#m3">AddCustomer</a></td></tr><tr class="failedodd"><td><a href="#m4">loginToGuru99</a></td><td rowspan="1">1627494674172</td><td rowspan="1">16025</td></tr></tbody>
 </table>
-<h2>Guru99 Test</h2><h3 id="m0">Com.Guru99.TestCases.Login_TC_001#LoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Manager&apos;]&quot;}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+<h2>Guru99 Test</h2><h3 id="m0">Com.Guru99.TestCases.Login_TC_001#LoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=83.0.4103.61): User or Password is not valid
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: be1fc5bb16ac5c9d61d1892c907a3789
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b1115442aabe1077cebf635a75cd150e
 *** Element info: {Using=xpath, value=//a[text()=&apos;Manager&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -37,15 +35,15 @@ Session ID: be1fc5bb16ac5c9d61d1892c907a3789
 	at com.sun.proxy.$Proxy9.getText(Unknown Source)
 	at Com.Guru99.PageObjects.LoginPage.MenuName(LoginPage.java:64)
 	at Com.Guru99.TestCases.Login_TC_001.LoginTest(Login_TC_001.java:60)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">Com.Guru99.TestCases.TC_002_AddNewCustomer#AddCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Muskan</td><td>Female</td><td>12031992</td><td>Magarpatta</td><td>Pune</td><td>Maharashtra</td><td>411001</td><td>7895453435</td><td>mus@gmail.com</td><td>mus1234</td></tr><tr><th colspan="10">Exception</th></tr><tr><td colspan="10"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&quot;New Customer&quot;]&quot;}
   (Session info: chrome=83.0.4103.61)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 71be8508846ca59a24eb8f6f8114fefb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:56938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee556449f53e6aee72acc055538763bd
 *** Element info: {Using=xpath, value=//a[text()=&quot;New Customer&quot;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -69,8 +67,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 71be8508846ca59a24eb8f6f8114fefb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:56938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee556449f53e6aee72acc055538763bd
 *** Element info: {Using=xpath, value=//a[text()=&quot;New Customer&quot;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -94,8 +92,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 71be8508846ca59a24eb8f6f8114fefb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:56938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee556449f53e6aee72acc055538763bd
 *** Element info: {Using=xpath, value=//a[text()=&quot;New Customer&quot;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -113,17 +111,15 @@ Session ID: 71be8508846ca59a24eb8f6f8114fefb
 	at Com.Guru99.PageObjects.AddNewCustomer.ClickNewCustomerMenuButton(AddNewCustomer.java:73)
 	at Com.Guru99.TestCases.TC_002_AddNewCustomer.AddCustomer(TC_002_AddNewCustomer.java:27)
 ... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Com.Guru99.TestCases.TC_002_AddNewCustomer#loginToGuru99</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Manager&apos;]&quot;}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+<h3 id="m4">Com.Guru99.TestCases.TC_002_AddNewCustomer#loginToGuru99</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=83.0.4103.61): User or Password is not valid
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.0.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 71be8508846ca59a24eb8f6f8114fefb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:56938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ee556449f53e6aee72acc055538763bd
 *** Element info: {Using=xpath, value=//a[text()=&apos;Manager&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -138,6 +134,6 @@ Session ID: 71be8508846ca59a24eb8f6f8114fefb
 	at Com.Guru99.PageObjects.LoginPage.MenuName(LoginPage.java:64)
 	at Com.Guru99.TestCases.Login_TC_001.LoginTest(Login_TC_001.java:60)
 	at Com.Guru99.TestCases.TC_002_AddNewCustomer.loginToGuru99(TC_002_AddNewCustomer.java:20)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

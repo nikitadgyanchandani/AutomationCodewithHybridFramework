@@ -35,7 +35,7 @@ public class BaseClass {
 	public static Logger logger;
 	
 	@Parameters("browser")
-	@BeforeClass
+	@BeforeClass //Intializing the drivers
 	public void Setup(String browserType)
 	{
 		
